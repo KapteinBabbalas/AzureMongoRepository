@@ -1,17 +1,25 @@
-<?xml version="1.0"?>
-<package >
-  <metadata>
-    <id>AzureMongoRepository</id>
-    <version>1.0.0</version>
-    <authors>Dooshaar</authors>
-    <owners>Dooshaar</owners>  
-    <iconUrl>http://blog.sysfore.com/wp-content/uploads/2014/12/DocumentDB.png</iconUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Package description</description>
-    <releaseNotes>Based on https://github.com/RobThree/MongoRepository </releaseNotes>
-    <copyright>Copyright 2016</copyright>
-    <tags></tags>
-    <dependencies>     
-    </dependencies>
-  </metadata>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+    <metadata>
+        <id>AzureMongoRepository.AzureFunctions</id>
+        <title>AzureMongoRepository.AzureFunctions</title>
+        <authors>Dooshaar</authors>
+        <owners>Dooshaar</owners>
+        <projectUrl>https://github.com/KapteinBabbalas/AzureMongoRepository/tree/AzureFunctions</projectUrl>
+        <iconUrl>http://blog.sysfore.com/wp-content/uploads/2014/12/DocumentDB.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Based on https://github.com/RobThree/MongoRepository</description>
+        <releaseNotes />
+        <copyright>Copyright 2017</copyright>
+        <dependencies>
+            <group targetFramework=".NETFramework4.5">
+                 <dependency id="MongoDB.Driver" version="[2.3.0]" /> 
+                 <dependency id="MongoDB.Driver.Core" version="[2.3.0]" /> 
+                 <dependency id="MongoDB.Bson" version="[2.3.0]" /> 
+            </group>
+        </dependencies>        
+    </metadata>
+	<files>
+    <file src="bin\Release\.....dll" target="lib\net45\.....dll" />
+  </files>
 </package>
